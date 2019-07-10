@@ -11,7 +11,7 @@ public class OcpController {
 	@GetMapping("/welcome")
 	public String welcome()
 	{
-		return "Welcome to openshift";
+		return "Welcome to the okd openshift";
 	}
 	
 	@GetMapping("/docs")
