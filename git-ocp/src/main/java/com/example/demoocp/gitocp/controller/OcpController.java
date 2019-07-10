@@ -11,11 +11,11 @@ public class OcpController {
 	@GetMapping("/welcome")
 	public String welcome()
 	{
-		return "Welcome to the okd openshift";
+		return "Welcome to  openshift";
 	}
 	
 	@GetMapping("/docs")
-	public String documents()
+	public String document()
 	{
 		return "Openshift leverages Kubernetes underneath as the primary infrastructure component.\r\n" + 
 				"We learned that on Kubernetes you can deploy applications in the form of containers such as Docker\r\n" + 
