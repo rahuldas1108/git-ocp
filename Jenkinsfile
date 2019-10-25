@@ -1,6 +1,6 @@
 node{
      stage('one') {
-        echo ('gh') 
+        echo ('one') 
       }
      stage('git checkout')
 		{
