@@ -4,8 +4,7 @@ node{
       }
      stage('git checkout')
 		{
-			steps{
-				checkout scm
-				}
+		checkout scm
+	
 		}
 }
