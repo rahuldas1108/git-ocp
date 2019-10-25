@@ -13,6 +13,6 @@ node{
 }
      stage('deploy'){
 	  
-         sh 'cp /target/JenkinsWar.war /var/lib/tomcat7/webapps/'
+         sh 'cp target/JenkinsWar.war /var/lib/tomcat7/webapps/'
 }
 }
