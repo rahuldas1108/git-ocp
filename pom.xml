@@ -4,6 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
+		<packaging>war</packaging>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.1.6.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
@@ -32,6 +33,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>JenkinsWar</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
