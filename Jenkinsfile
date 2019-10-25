@@ -12,6 +12,7 @@ node{
            sh "'${mvnhome}/bin/mvn' package"
 }
      stage('deploy'){
+	  #!/bin/bash
          sh 'cp /target/JenkinsWar.war /var/lib/tomcat7/webapps/'
 }
 }
